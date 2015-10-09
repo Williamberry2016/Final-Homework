@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2331EF1BC75D1700237589 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2331EE1BC75D1700237589 /* PersonTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		CC30FC581BBB7A520053941A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC571BBB7A520053941A /* AppDelegate.swift */; };
 		CC30FC5A1BBB7A520053941A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC591BBB7A520053941A /* ViewController.swift */; };
 		CC30FC5D1BBB7A520053941A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC30FC5B1BBB7A520053941A /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		CC30FC621BBB7A520053941A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC30FC601BBB7A520053941A /* LaunchScreen.storyboard */; };
 		CC30FC6D1BBB7A520053941A /* Day5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC6C1BBB7A520053941A /* Day5Tests.swift */; };
 		CC30FC781BBB7A520053941A /* Day5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC771BBB7A520053941A /* Day5UITests.swift */; };
+		CC30FC861BBB7EC00053941A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC851BBB7EC00053941A /* Person.swift */; settings = {ASSET_TAGS = (); }; };
+		CC30FC891BBB8E1E0053941A /* personDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC30FC871BBB8E1E0053941A /* personDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC2331EE1BC75D1700237589 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		CC30FC541BBB7A520053941A /* Day5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC30FC571BBB7A520053941A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC30FC591BBB7A520053941A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		CC30FC731BBB7A520053941A /* Day5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC30FC771BBB7A520053941A /* Day5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5UITests.swift; sourceTree = "<group>"; };
 		CC30FC791BBB7A520053941A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC30FC851BBB7EC00053941A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CC30FC871BBB8E1E0053941A /* personDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				CC30FC571BBB7A520053941A /* AppDelegate.swift */,
 				CC30FC591BBB7A520053941A /* ViewController.swift */,
+				CC2331EE1BC75D1700237589 /* PersonTableViewCell.swift */,
+				CC30FC871BBB8E1E0053941A /* personDetailViewController.swift */,
+				CC30FC851BBB7EC00053941A /* Person.swift */,
 				CC30FC5B1BBB7A520053941A /* Main.storyboard */,
 				CC30FC5E1BBB7A520053941A /* Assets.xcassets */,
 				CC30FC601BBB7A520053941A /* LaunchScreen.storyboard */,
@@ -255,7 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC30FC891BBB8E1E0053941A /* personDetailViewController.swift in Sources */,
+				CC30FC861BBB7EC00053941A /* Person.swift in Sources */,
 				CC30FC5A1BBB7A520053941A /* ViewController.swift in Sources */,
+				CC2331EF1BC75D1700237589 /* PersonTableViewCell.swift in Sources */,
 				CC30FC581BBB7A520053941A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +495,7 @@
 				CC30FC7E1BBB7A520053941A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC30FC7F1BBB7A520053941A /* Build configuration list for PBXNativeTarget "Day5Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				CC30FC811BBB7A520053941A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC30FC821BBB7A520053941A /* Build configuration list for PBXNativeTarget "Day5UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +513,7 @@
 				CC30FC841BBB7A520053941A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
